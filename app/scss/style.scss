@@ -1,0 +1,18 @@
+// Global styles
+@import "fonts";
+@import "libs";
+@import "vars";
+@import "normalize";
+@import "my-style";
+
+// Header and footer
+@import "header";
+@import "footer";
+
+// Blocks
+// @import "blocks/socials";
+
+// Pages
+@import "pages/about-page";
+@import "pages/main-page";
+@import "pages/contacts-page";

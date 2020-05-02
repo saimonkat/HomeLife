@@ -1,0 +1,8 @@
+@import "_mixins/font-face";
+
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSansRegular/OpenSansRegular");
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold", 600);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSansBold/OpenSansBold", 700);
+
+@include font-face("PlayfairDisplay", "../fonts/PlayfairDisplay/PlayfairDisplayRegular/PlayfairDisplayRegular");
+@include font-face("PlayfairDisplay", "../fonts/PlayfairDisplay/PlayfairDisplayItalic/PlayfairDisplayItalic", 400, italic);
