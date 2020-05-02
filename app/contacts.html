@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="js/scripts.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container h-container">
+      <a href="/" class="h-logo"></a>
+
+      <nav class="h-menu">
+        <ul class="h-menu__list">
+          <li class="h-menu__item"><a href="/repertoire.html" class="h-menu__link">Репертуар</a></li>
+          <li class="h-menu__item"><a href="/tickets.html" class="h-menu__link">Афиша</a></li>
+          <li class="h-menu__item"><a href="/festival.html" class="h-menu__link">Фестиваль</a></li>
+          <li class="h-menu__item">
+            <div class="h-menu__link h-dropdown">О театре
+              <div class="dropdown-menu">
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a href="/history.html" class="dropdown-menu__link">История театра</a></li>
+                  <li class="dropdown-menu__item"><a href="/collective.html" class="dropdown-menu__link">Коллектив</a></li>
+                  <li class="dropdown-menu__item"><a href="/tour-3d.html" class="dropdown-menu__link">3D тур</a></li>
+                  <li class="dropdown-menu__item"><a href="/faq.html" class="dropdown-menu__link">Часто задаваемые вопросы</a></li>
+                  <li class="dropdown-menu__item"><a href="/hall-plan.html" class="dropdown-menu__link">Схема зала</a></li>
+                  <li class="dropdown-menu__item"><a href="/press-room.html" class="dropdown-menu__link">Пресс-рум</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="h-menu__item"><a href="/partners-sponsors.html" class="h-menu__link">Партнеры</a></li>
+          <li class="h-menu__item"><a href="/excursions.html" class="h-menu__link">Экскурсии</a></li>
+          <li class="h-menu__item"><a href="/news.html" class="h-menu__link">Новости</a></li>
+          <li class="h-menu__item"><a href="/contacts.html" class="h-menu__link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="h-helpers">
+        <a href="#searchModal" class="h-search modal-btn"></a>
+        <div class="h-lang h-dropdown">УКР
+          <div class="dropdown-menu">
+            <ul class="dropdown-menu__list">
+              <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link active">УКР</a></li>
+              <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">РУС</a></li>
+              <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">ENG</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="hamburger">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="m-panel">
+      <img src="img/statues/statue-footer.gif" class="m-statue">
+      <div class="container m-container">
+        <a href="#searchModal" class="m-search modal-btn"></a>
+        <div class="m-content">
+          <div class="m-menu">
+            <ul class="m-menu__list">
+              <li class="m-menu__item"><a href="/repertoire.html" class="m-menu__link">Репертуар</a></li>
+              <li class="m-menu__item"><a href="/tickets.html" class="m-menu__link">Афиша</a></li>
+              <li class="m-menu__item"><a href="/festival.html" class="m-menu__link">Фестиваль</a></li>
+              <li class="m-menu__item">
+                <div class="m-menu__link m-dropdown">
+                  <span class="m-dropdown__title">О театре</span>
+                  <ul class="m-dropdown__menu dropdown-menu">
+                    <li class="m-menu__item"><a href="/history.html" class="m-menu__link">История театра</a></li>
+                    <li class="m-menu__item"><a href="/collective.html" class="m-menu__link">Коллектив</a></li>
+                    <li class="m-menu__item"><a href="/tour-3d.html" class="m-menu__link">3D тур</a></li>
+                    <li class="m-menu__item"><a href="/faq.html" class="m-menu__link">Часто задаваемые вопросы</a></li>
+                    <li class="m-menu__item"><a href="/hall-plan.html" class="m-menu__link">Схема зала</a></li>
+                    <li class="m-menu__item"><a href="/press-room.html" class="m-menu__link">Пресс-рум</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="m-menu__item"><a href="/partners-sponsors.html" class="m-menu__link">Партнеры</a></li>
+              <li class="m-menu__item"><a href="/excursions.html" class="m-menu__link">Экскурсии</a></li>
+              <li class="m-menu__item"><a href="/news.html" class="m-menu__link">Новости</a></li>
+              <li class="m-menu__item"><a href="/contacts.html" class="m-menu__link">Контакты</a></li>
+            </ul>
+          </div>
+          <a href="#" class="m-btn btn light"><span>Купить билеты</span></a>
+          <div class="m-footer">
+            <div class="m-footer__top">
+              <div class="langs">
+                <a href="#" class="langs__item active">УКР</a>
+                <a href="#" class="langs__item">РУС</a>
+                <a href="#" class="langs__item">ENG</a>
+              </div>
+
+              <div class="socials gold">
+                <a href="#" class="social facebook"></a>
+                <a href="#" class="social youtube"></a>
+                <a href="#" class="social instagram"></a>
+              </div>
+            </div>
+
+            <div class="m-footer__sponsors">
+              <a href="#" class="sponsor"><img src="/img/sponsor-gray.svg"></a>
+              <a href="#" class="sponsor"><img src="/img/sponsor-gray.png"></a>
+              <a href="#" class="sponsor"><img src="/img/sponsor-gray.svg"></a>
+              <a href="#" class="sponsor"><img src="/img/sponsor-gray.png"></a>
+            </div>
+
+            <div class="m-footer__contacts">
+              <div class="m-footer__contacts-item">
+                <div class="title">КАССЫ:</div>
+                <a href="#" class="tel">+38 (048) 780-15-09</a>
+                <a href="#" class="mail">info@opera.odessa.ua</a>
+              </div>
+              <div class="m-footer__contacts-item">
+                <div class="title">ПРИЕМНАЯ:</div>
+                <a href="#" class="tel">+38 (048) 780-15-09</a>
+                <a href="#" class="mail">info@opera.odessa.ua</a>
+              </div>
+              <div class="m-footer__contacts-item">
+                <div class="title">ДЛЯ ПРЕССЫ:</div>
+                <a href="#" class="tel">+38 (048) 780-15-09</a>
+                <a href="#" class="mail">info@opera.odessa.ua</a>
+              </div>
+            </div> <!-- /footer__contacts -->
+          </div>
+        </div> <!-- /m-content -->
+      </div> <!-- /m-container -->
+    </div>
+  </header>
+
+
+	<main>
+
+<div class='contacts-page'>
+  
+</div>
+
+</main>
+
+<footer>
+  <div class="footer__logo"><img src="img/logo-full-gold.svg"></div>
+
+  <div class="container">
+    <div class="footer__main">
+      <div class="footer__menu">
+        <div class="footer__menu-item">
+          <a href="/repertoire.html" class="title-link">Репертуар</a>
+          <a href="/festival.html">Фестиваль</a>
+          <a href="/festival.html">Опера</a>
+          <a href="/festival.html">Балет</a>
+          <a href="/festival.html">Концерты</a>
+          <a href="/festival.html">Молодому зрителю</a>
+          <a href="/repertoire-archive.html">Архив событий</a>
+        </div>
+        <div class="footer__menu-item">
+          <a href="/about.html" class="title-link">О театре</a>
+          <a href="/history.html">История театра</a>
+          <a href="/collective.html">Коллектив</a>
+          <a href="/faq.html">Часто задаваемые вопросы</a>
+          <a href="/hall-plan.html">Схема зала</a>
+          <a href="/tour-3d.html">3D тур</a>
+        </div>
+        <div class="footer__menu-item">
+          <a href="/tickets.html" class="title-link">Афиша</a>
+          <a href="/event.html">Опера</a>
+          <a href="/event.html">Балет</a>
+          <a href="/event.html">Концерты</a>
+          <a href="/event.html">Молодому зрителю</a>
+        </div>
+        <div class="footer__menu-item">
+          <a href="/excursions.html" class="title-link">Экскурсии</a>
+          <a href="/partners-sponsors.html" class="title-link">Партнеры</a>
+          <a href="/news.html" class="title-link">Новости</a>
+          <a href="/contacts.html" class="title-link">Контакты</a>
+        </div>
+        <div class="footer__menu-item">
+          <a href="/press-room.html" class="title-link">Пресс-рум</a>
+          <a href="/press-theater.html">Пресса о театре</a>
+          <a href="/press-release.html">Пресс релизы</a>
+          <a href="/photo-n-video.html">Фото и видео</a>
+        </div>
+        <div class="footer__menu-item">
+          <a href="/documents.html" class="title-link">Документы</a>
+          <a href="/payment.html" class="title-link">Оплата и доставка</a>
+          <a href="/policy.html" class="title-link">Политика конфиденциальности</a>
+          <a href="/conditions.html" class="title-link">Условия пользования</a>
+        </div>
+      </div><!-- /footer__menu -->
+
+      <div class="footer__contacts">
+        <div class="footer__contacts-item">
+          <div class="title">КАССЫ:</div>
+          <a href="#" class="tel">+38 (048) 780-15-09</a>
+          <a href="#" class="mail">info@opera.odessa.ua</a>
+        </div>
+        <div class="footer__contacts-item">
+          <div class="title">ПРИЕМНАЯ:</div>
+          <a href="#" class="tel">+38 (048) 780-15-09</a>
+          <a href="#" class="mail">info@opera.odessa.ua</a>
+        </div>
+        <div class="footer__contacts-item">
+          <div class="title">ДЛЯ ПРЕССЫ:</div>
+          <a href="#" class="tel">+38 (048) 780-15-09</a>
+          <a href="#" class="mail">info@opera.odessa.ua</a>
+        </div>
+      </div> <!-- /footer__contacts -->
+      
+      <div class="socials gold">
+        <a href="#" class="social facebook"></a>
+        <a href="#" class="social youtube"></a>
+        <a href="#" class="social instagram"></a>
+      </div>
+
+      <div class="footer__subscribe">
+        <div class="title">Подпишитесь на новости и анонсы&nbsp;событий</div>
+        <input type="text" placeholder="Введите ваш e-mail">
+        <a href="#" class="btn light"><span>Подписаться</span></a>
+      </div> 
+    </div>
+
+
+    <div class="footer__bottom">
+      <div class="copyright">©1884-2019 Одесский Национальный Академический театр Оперы и Балета. Все&nbsp;права&nbsp;защищены.</div>
+      <div class="site-by">Site by: <a href="https://chyrkov.studio/">CHYRKOV.studio</a></div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Модальный блок поиска -->
+<div class="modal" id="searchModal">
+  <div class="search-block">
+    <input type="text" placeholder="Поиск..." class="search-input">
+    <a href="/search-results.html" class="search-btn"></a>
+  </div>
+</div>
+<div class="modal-bg"></div>
+
+
+<!-- Preloader -->
+<div id="preloader">
+  <div class="preloader-logo">
+    <div class="preloader-logo-img"></div>
+  </div>
+</div>
+
+</body>
+</html>
