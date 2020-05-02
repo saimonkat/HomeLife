@@ -3,33 +3,11 @@ $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 192
 // Fonts
 $font: "OpenSans", sans-serif;
 
-// Transition
-$tnsn: .3s ease-out;
-
 // Colors
 $white: #f7f7f7;
-$white-1: rgba(255, 255, 255, 0.01);
-$black: #141414;
-$black2: #2a2a2a;
-$black3: #121212;
-$black4: #211e1e;
-$black5: #626262;
-$black-20: rgba(0, 0, 0, 0.2);
-$black-30: rgba(0, 0, 0, 0.30);
-$black-50: rgba(0, 0, 0, 0.5);
-$green: #00732d;
-$camo-green: #351b1b;
-$red: #9d061e;
-$lipstick: #cc2936;
-$macaroni: #e0a63b;
-$gold: #af9164;
-$gold-30: rgba(175, 145, 100, 0.3);
+$black: #626262;
+$blue: rgb(60, 200, 235);
 $border: #ebdac9;
-$border-6: #ebdac999;
-$light-pink: #cdcdcd;
-$light-pink2: #d8d8d8;
-$greyish-brown: #464646;
-$greyish-brown2: #3d3d3d;
 
 // Shadows
-$shadow: 0 10px 24px 0 rgba(20, 20, 20, 0.16);
+$shadow: 0 10px 20px rgba(0, 0, 0, 0.1);

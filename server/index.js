@@ -5,7 +5,6 @@ const app = express();
 const PORT = process.env.PORT || 80;
 
 app.get('/', (req, response) => {
-    response.se
     response.end(`
     <h1>Home Hey Ho lets go</h1>
     <div>
