@@ -5,6 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 80;
 
 app.get('/', (req, response) => {
+    response.se
     response.end(`
     <h1>Home Hey Ho lets go</h1>
     <div>
@@ -16,7 +17,7 @@ app.get('/', (req, response) => {
     `);
 });
 
-app.get('/about', (req, response) => {
+app.get('/createEvent', (req, response) => {
     response.end(`
         <h1>About</h1>
         <div>
