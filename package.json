@@ -4,7 +4,8 @@
   "description": "OptimizedHTML 4 - Start HTML Template",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start_server": "node ./server/index.js",
+    "start_client": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "WebDesign Master",
@@ -23,7 +24,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "node-sass": "^4.14.0"
   },
   "dependencies": {
     "css-vars-ponyfill": "^2.2.1",
