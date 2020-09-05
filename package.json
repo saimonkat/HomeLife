@@ -25,7 +25,7 @@
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
     "jquery": "^3.4.1",
-    "node-sass": "^4.14.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "css-vars-ponyfill": "^2.2.1",
